@@ -1,0 +1,37 @@
+﻿ID,Título,Prioridad,Rol,Objetivo,Valor,Requisitos,Estado
+HU-001,Registro de usuario,Alta,Como usuario,quiero registrarme en la aplicación,para crear una cuenta y acceder a las funcionalidades personalizadas.,RF-001,Pendiente de refinamiento
+HU-002,Inicio de sesión,Alta,Como usuario,quiero iniciar sesión,para acceder de forma segura a mi cuenta.,"RF-002, RNF-006",Pendiente de refinamiento
+HU-003,Gestión del perfil,Media,Como usuario,quiero consultar y actualizar mi perfil,para mantener mis datos y preferencias actualizados.,"RF-003, RIA-001",Pendiente de refinamiento
+HU-004,Explorar restaurantes,Alta,Como usuario,quiero consultar restaurantes disponibles,para descubrir opciones gastronómicas en Tunja.,RF-004,Pendiente de refinamiento
+HU-005,Detalle del restaurante,Alta,Como usuario,quiero consultar la información de un restaurante,para conocer sus características antes de elegirlo.,RF-005,Pendiente de refinamiento
+HU-006,Consultar platos,Alta,Como usuario,quiero consultar los platos de un restaurante,para conocer su oferta gastronómica.,RF-006,Pendiente de refinamiento
+HU-007,Consultar precios,Alta,Como usuario,quiero visualizar los precios de los platos,para comparar opciones antes de elegir.,RF-007,Pendiente de refinamiento
+HU-008,Consultar horarios,Alta,Como usuario,quiero consultar los horarios de atención,para saber cuándo puedo visitar un restaurante.,RF-008,Pendiente de refinamiento
+HU-009,Consultar ubicación,Alta,Como usuario,quiero consultar la ubicación de un restaurante,para conocer dónde se encuentra.,RF-009,Pendiente de refinamiento
+HU-010,Buscar opciones gastronómicas,Alta,Como usuario,quiero buscar restaurantes o platos,para encontrar rápidamente opciones de mi interés.,RF-010,Pendiente de refinamiento
+HU-011,Filtrar resultados,Media,Como usuario,quiero filtrar las opciones gastronómicas disponibles,para reducir los resultados y encontrar alternativas relevantes.,RF-010,Pendiente de refinamiento
+HU-012,Detalle de plato,Alta,Como usuario,quiero consultar el detalle de un plato,para conocer mejor una opción gastronómica antes de elegirla.,RF-011,Pendiente de refinamiento
+HU-013,Registrar interacción,Alta,Como usuario,quiero que mis interacciones con restaurantes y platos sean registradas,para que el sistema pueda conocer mis intereses gastronómicos.,"RF-012, RIA-002",Pendiente de refinamiento
+HU-014,Registrar preferencias,Alta,Como usuario,quiero registrar mis preferencias gastronómicas,para recibir recomendaciones más acordes con mis intereses.,"RF-013, RIA-001",Pendiente de refinamiento
+HU-015,Consultar historial de búsqueda,Media,Como usuario,quiero conservar mi historial de búsquedas,para facilitar futuras consultas y aportar información al sistema de recomendaciones.,"RF-014, RIA-002",Pendiente de refinamiento
+HU-016,Generar recomendaciones,Alta,Como usuario,quiero recibir recomendaciones gastronómicas personalizadas,para descubrir restaurantes o platos que puedan interesarme.,"RF-015, RIA-001, RIA-002, RIA-003",Pendiente de refinamiento
+HU-017,Integrar motor de recomendación,Alta,Como sistema,quiero comunicarme con el motor de recomendación,para obtener resultados personalizados desde la aplicación móvil.,"RF-016, RIA-003",Pendiente de refinamiento
+HU-018,Visualizar recomendaciones,Alta,Como usuario,quiero visualizar las recomendaciones recibidas,para decidir qué opción gastronómica consultar.,RF-017,Pendiente de refinamiento
+HU-019,Actualizar información gastronómica,Alta,Como administrador/gestor,quiero actualizar la información gastronómica,para mantener el catálogo vigente.,RF-018,Pendiente de refinamiento
+HU-020,Gestionar restaurantes,Alta,Como administrador/gestor,"quiero crear, consultar, actualizar y gestionar restaurantes",para administrar el catálogo gastronómico.,RF-019,Pendiente de refinamiento
+HU-021,Gestionar platos,Alta,Como administrador/gestor,quiero gestionar los platos de los restaurantes,para mantener actualizada la oferta gastronómica.,RF-020,Pendiente de refinamiento
+HU-022,Gestionar horarios,Media,Como administrador/gestor,quiero gestionar los horarios de atención,para mantener correcta la información de disponibilidad del restaurante.,RF-021,Pendiente de refinamiento
+HU-023,Gestionar ubicación,Media,Como administrador/gestor,quiero gestionar la ubicación del restaurante,para mantener correcta la información geográfica del catálogo.,RF-022,Pendiente de refinamiento
+HU-024,Evaluar recomendaciones,Alta,Como investigador/desarrollador,quiero evaluar el sistema de recomendaciones,para determinar su desempeño mediante métricas definidas.,"RF-023, RIA-004, RIA-006",Pendiente de refinamiento
+HU-025,Manejo de usuario nuevo,Alta,Como usuario nuevo,quiero recibir recomendaciones aunque no tenga historial,para poder descubrir opciones desde mi primera interacción.,RIA-005,Pendiente de refinamiento
+HU-026,Entrenamiento y evaluación del modelo,Alta,Como investigador/desarrollador,quiero separar los datos de entrenamiento y evaluación,para medir el comportamiento del recomendador de manera controlada.,RIA-004,Pendiente de refinamiento
+HU-027,Aplicación multiplataforma,Alta,Como usuario,quiero utilizar la aplicación móvil en las plataformas objetivo,para acceder al sistema desde mi dispositivo compatible.,RNF-001,Pendiente de refinamiento
+HU-028,Usabilidad del MVP,Alta,Como usuario,quiero una interfaz clara y fácil de usar,para encontrar opciones gastronómicas sin dificultad.,RNF-002,Pendiente de refinamiento
+HU-029,Rendimiento,Media,Como usuario,quiero que las pantallas y consultas respondan adecuadamente,para utilizar la aplicación sin esperas innecesarias.,RNF-003,Pendiente de refinamiento
+HU-030,Escalabilidad,Media,Como equipo de desarrollo,quiero una arquitectura que permita crecer,"para incorporar más usuarios, restaurantes y datos sin rediseñar todo el sistema.",RNF-004,Pendiente de refinamiento
+HU-031,Disponibilidad,Media,Como usuario,quiero que el servicio esté disponible cuando lo necesite,para consultar el catálogo y las recomendaciones.,RNF-005,Pendiente de refinamiento
+HU-032,Seguridad de acceso,Alta,Como usuario,quiero que mi cuenta esté protegida,para evitar accesos no autorizados.,RNF-006,Pendiente de refinamiento
+HU-033,Privacidad de datos,Alta,Como usuario,quiero que mis datos e interacciones sean tratados de forma adecuada,para mantener el control y protección de mi información.,RNF-007,Pendiente de refinamiento
+HU-034,Mantenibilidad,Media,Como equipo de desarrollo,quiero código organizado y documentado,para poder corregir y ampliar el sistema con menor esfuerzo.,RNF-008,Pendiente de refinamiento
+HU-035,Integración mediante API,Alta,Como sistema,quiero integrar la aplicación móvil con los servicios del backend y recomendador,para intercambiar datos de manera controlada.,"RNF-009, RF-016",Pendiente de refinamiento
+HU-036,Calidad integral,Alta,Como equipo de desarrollo,quiero verificar la calidad del sistema,para asegurar que el MVP cumpla los requisitos establecidos.,RNF-010,Pendiente de refinamiento

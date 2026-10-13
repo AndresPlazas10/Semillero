@@ -1,0 +1,51 @@
+# Matriz de Trazabilidad de Requisitos — v1.0
+
+Matriz inicial derivada del Documento de Requisitos del Sistema v1.0. Relaciona requisitos con objetivos, casos de uso, historias de usuario (backlog v1.1), módulos/datos, validación y pruebas (P-XXX-NN de la estimación v1.0).
+
+## Nota de control
+Los casos de uso CU-13 a CU-25 son identificadores de trabajo para mantener la trazabilidad; deben consolidarse con la especificación formal de casos de uso antes de cerrar la versión definitiva.
+
+| Requisito | Tipo | Objetivo relacionado | Caso de uso | HU | Módulo/Componente | Datos involucrados | Validación/Prueba | Pruebas | Estado |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| RF-001 | Funcional | OG + OE1 | CU-01 | HU-001 | Autenticación/Usuarios | Usuario | Prueba de registro válido e inválido | P-001-01, P-001-02, P-001-03, P-001-04, P-001-05 | Validado (Sprint 0) |
+| RF-002 | Funcional | OG + OE1 | CU-02 | HU-002 | Autenticación/Usuarios | Usuario | Prueba de inicio de sesión | P-002-01, P-002-02, P-002-03, P-002-04, P-002-05 | Validado (Sprint 0) |
+| RF-003 | Funcional | OG + OE1 | CU-03 | HU-003 | Perfil | Usuario | Prueba de consulta/edición de perfil | P-003-01, P-003-02, P-003-03, P-003-04, P-003-05 | Validado (Sprint 0) |
+| RF-004 | Funcional | OG + OE4 | CU-04 | HU-004 | Catálogo | Restaurante | Prueba de listado de restaurantes | P-004-01, P-004-02, P-004-03, P-004-04 | Validado (Sprint 0) |
+| RF-005 | Funcional | OG + OE4 | CU-05 | HU-005 | Catálogo | Restaurante | Prueba de detalle de restaurante | P-005-01, P-005-02, P-005-03, P-005-04 | Validado (Sprint 0) |
+| RF-006 | Funcional | OG + OE4 | CU-06 | HU-006 | Catálogo | Plato | Prueba de consulta de platos | P-006-01, P-006-02, P-006-03, P-006-04 | Validado (Sprint 0) |
+| RF-007 | Funcional | OG + OE4 | CU-07 | HU-007 | Catálogo | Plato | Prueba de visualización de precios | P-007-01, P-007-02, P-007-03, P-007-04 | Validado (Sprint 0) |
+| RF-008 | Funcional | OG + OE4 | CU-08 | HU-008 | Catálogo | Horario | Prueba de visualización de horarios | P-008-01, P-008-02, P-008-03, P-008-04 | Validado (Sprint 0) |
+| RF-009 | Funcional | OG + OE4 | CU-09 | HU-009 | Catálogo/Ubicación | Ubicación | Prueba de visualización de ubicación | P-009-01, P-009-02, P-009-03, P-009-04 | Validado (Sprint 0) |
+| RF-010 | Funcional | OG + OE4 | CU-10 | HU-010, HU-011 | Búsqueda | Restaurante/Plato | Prueba de búsqueda y resultados | P-010-01, P-010-02, P-010-03, P-010-04, P-010-05, P-011-01, P-011-02, P-011-03, P-011-04 | Validado (Sprint 0) |
+| RF-011 | Funcional | OG + OE4 | CU-06 | HU-012 | Catálogo | Plato | Prueba de detalle de plato | P-012-01, P-012-02, P-012-03, P-012-04 | Validado (Sprint 0) |
+| RF-012 | Funcional | OG + OE2 | CU-11 | HU-013 | Analítica/Recomendador | Interacción | Prueba de registro de interacción | P-013-01, P-013-02, P-013-03, P-013-04, P-013-05 | Validado (Sprint 0) |
+| RF-013 | Funcional | OG + OE2 | CU-12 | HU-014 | Preferencias/Recomendador | Usuario/Preferencias | Prueba de registro de preferencias | P-014-01, P-014-02, P-014-03, P-014-04, P-014-05 | Validado (Sprint 0) |
+| RF-014 | Funcional | OG + OE2 | CU-10 | HU-015 | Búsqueda/Recomendador | Historial | Prueba de persistencia del historial | P-015-01, P-015-02, P-015-03, P-015-04, P-015-05 | Validado (Sprint 0) |
+| RF-015 | Funcional | OG + OE2 | CU-12 | HU-016 | Recomendador | Usuario/Interacción/Preferencias | Prueba de generación de recomendaciones | P-016-01, P-016-02, P-016-03, P-016-04, P-016-05, P-016-06 | Validado (Sprint 0) |
+| RF-016 | Funcional | OG + OE2 | CU-12 | HU-017, HU-035 | API/Recomendador | Usuario/Interacción/Preferencias | Prueba de integración móvil-API | P-017-01, P-017-02, P-017-03, P-017-04, P-017-05, P-017-06, P-035-01, P-035-02, P-035-03, P-035-04, P-035-05 | Validado (Sprint 0) |
+| RF-017 | Funcional | OG + OE2 | CU-12 | HU-018 | Presentación/Recomendador | Recomendación | Prueba de presentación de resultados | P-018-01, P-018-02, P-018-03, P-018-04 | Validado (Sprint 0) |
+| RF-018 | Funcional | OG + OE1 + OE4 | CU-13 | HU-019 | Gestión gastronómica | Restaurante | Prueba de actualización de información | P-019-01, P-019-02, P-019-03, P-019-04 | Validado (Sprint 0) |
+| RF-019 | Funcional | OG + OE1 | CU-13 | HU-020 | Gestión gastronómica | Restaurante | Prueba CRUD de restaurantes | P-020-01, P-020-02, P-020-03, P-020-04, P-020-05 | Validado (Sprint 0) |
+| RF-020 | Funcional | OG + OE1 | CU-14 | HU-021 | Gestión gastronómica | Plato | Prueba CRUD de platos | P-021-01, P-021-02, P-021-03, P-021-04, P-021-05 | Validado (Sprint 0) |
+| RF-021 | Funcional | OG + OE1 | CU-14 | HU-022 | Gestión gastronómica | Horario | Prueba de gestión de horarios | P-022-01, P-022-02, P-022-03, P-022-04 | Validado (Sprint 0) |
+| RF-022 | Funcional | OG + OE1 | CU-14 | HU-023 | Gestión gastronómica | Ubicación | Prueba de gestión de ubicación | P-023-01, P-023-02, P-023-03, P-023-04 | Validado (Sprint 0) |
+| RF-023 | Funcional | OG + OE2 | CU-15 | HU-024 | Evaluación | Métricas/Resultados | Prueba de métricas del recomendador | P-024-01, P-024-02, P-024-03, P-024-04, P-024-05 | Validado (Sprint 0) |
+| RNF-001 | No funcional | OG + OE3 | CU-16 | HU-027 | Arquitectura móvil | N/A | Pruebas en plataformas objetivo | P-027-01, P-027-02, P-027-03, P-027-04 | Validado (Sprint 0) |
+| RNF-002 | No funcional | OG + OE3 | CU-17 | HU-028 | UX/UI | N/A | Pruebas de usabilidad | P-028-01, P-028-02, P-028-03, P-028-04, P-028-05 | Validado (Sprint 0) |
+| RNF-003 | No funcional | OG + OE3 | CU-18 | HU-029 | Rendimiento | N/A | Pruebas de tiempos de respuesta | P-029-01, P-029-02, P-029-03, P-029-04 | Validado (Sprint 0) |
+| RNF-004 | No funcional | OG + OE3 | CU-19 | HU-030 | Arquitectura/Backend | N/A | Pruebas de carga/crecimiento | P-030-01, P-030-02, P-030-03, P-030-04 | Validado (Sprint 0) |
+| RNF-005 | No funcional | OG + OE3 | CU-20 | HU-031 | Infraestructura | N/A | Pruebas de disponibilidad | P-031-01, P-031-02, P-031-03, P-031-04 | Validado (Sprint 0) |
+| RNF-006 | No funcional | OG + OE3 | CU-21 | HU-002, HU-032 | Seguridad | Usuario/Autenticación | Pruebas de autenticación/autorización | P-002-01, P-002-02, P-002-03, P-002-04, P-002-05, P-032-01, P-032-02, P-032-03, P-032-04, P-032-05 | Validado (Sprint 0) |
+| RNF-007 | No funcional | OG + OE3 | CU-22 | HU-033 | Privacidad | Usuario/Interacción | Revisión de tratamiento de datos | P-033-01, P-033-02, P-033-03, P-033-04, P-033-05 | Validado (Sprint 0) |
+| RNF-008 | No funcional | OG + OE3 | CU-23 | HU-034 | Código/Arquitectura | N/A | Revisión de mantenibilidad | P-034-01, P-034-02, P-034-03, P-034-04, P-034-05 | Validado (Sprint 0) |
+| RNF-009 | No funcional | OG + OE3 | CU-24 | HU-017, HU-035 | Integraciones/API | N/A | Pruebas de integración | P-017-01, P-017-02, P-017-03, P-017-04, P-017-05, P-017-06, P-035-01, P-035-02, P-035-03, P-035-04, P-035-05 | Validado (Sprint 0) |
+| RNF-010 | No funcional | OG + OE3 | CU-25 | HU-036 | Calidad | N/A | Pruebas integrales | P-036-01, P-036-02, P-036-03, P-036-04, P-036-05 | Validado (Sprint 0) |
+| RIA-001 | IA | OG + OE2 | CU-12 | HU-003, HU-014, HU-016 | Motor de recomendación | Usuario/Interacción/Preferencias | Prueba de personalización | P-003-01, P-003-02, P-003-03, P-003-04, P-003-05, P-014-01, P-014-02, P-014-03, P-014-04, P-014-05, P-016-01, P-016-02, P-016-03, P-016-04, P-016-05, P-016-06 | Validado (Sprint 0) |
+| RIA-002 | IA | OG + OE2 | CU-12 | HU-013, HU-015, HU-016 | Motor de recomendación | Interacción/Historial/Preferencias | Prueba de variables usadas | P-013-01, P-013-02, P-013-03, P-013-04, P-013-05, P-015-01, P-015-02, P-015-03, P-015-04, P-015-05, P-016-01, P-016-02, P-016-03, P-016-04, P-016-05, P-016-06 | Validado (Sprint 0) |
+| RIA-003 | IA | OG + OE2 | CU-12 | HU-016, HU-017 | Motor de recomendación | Modelo | Prueba comparativa del algoritmo | P-016-01, P-016-02, P-016-03, P-016-04, P-016-05, P-016-06, P-017-01, P-017-02, P-017-03, P-017-04, P-017-05, P-017-06 | Validado (Sprint 0) |
+| RIA-004 | IA | OG + OE2 | CU-15 | HU-026 | Datos/Modelo | Datos sintéticos/evaluación | Prueba de entrenamiento/evaluación | P-026-01, P-026-02, P-026-03, P-026-04 | Validado (Sprint 0) |
+| RIA-005 | IA | OG + OE2 | CU-12 | HU-025 | Motor de recomendación | Usuario nuevo/Cold Start | Prueba de usuario sin historial | P-025-01, P-025-02, P-025-03, P-025-04 | Validado (Sprint 0) |
+| RIA-006 | IA | OG + OE2 | CU-15 | HU-024 | Evaluación | Métricas | Prueba de métricas del recomendador | P-024-01, P-024-02, P-024-03, P-024-04, P-024-05 | Validado (Sprint 0) |
+
+## Próximo paso recomendado
+Validar cada relación requisito → objetivo → caso de uso → HU → prueba, y actualizar la columna `Estado` al cerrar cada validación en el Sprint 0.

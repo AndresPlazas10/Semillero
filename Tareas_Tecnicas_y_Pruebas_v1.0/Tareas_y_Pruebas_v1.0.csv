@@ -1,0 +1,369 @@
+﻿HU,Historia,Prioridad,Tipo,ID,Descripción,Estado,Sprint
+HU-001,Registro de usuario,Alta,Tarea técnica,T-001-01,Definir campos y reglas de validación del registro,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Tarea técnica,T-001-02,Configurar entidad/tabla de usuario y restricciones,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Tarea técnica,T-001-03,Implementar formulario de registro en móvil,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Tarea técnica,T-001-04,Implementar servicio de creación de usuario y manejo de errores,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Tarea técnica,T-001-05,Integrar validaciones cliente/servidor,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Tarea técnica,T-001-06,Documentar contrato y comportamiento del registro,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Prueba,P-001-01,Registro válido,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Prueba,P-001-02,Campos obligatorios inválidos,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Prueba,P-001-03,Identificador duplicado,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Prueba,P-001-04,Persistencia de usuario,Pendiente,Por asignar
+HU-001,Registro de usuario,Alta,Prueba,P-001-05,Error controlado de servicio,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Tarea técnica,T-002-01,Definir flujo de autenticación,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Tarea técnica,T-002-02,Configurar autenticación en Supabase,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Tarea técnica,T-002-03,Implementar pantalla de inicio de sesión,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Tarea técnica,T-002-04,Implementar manejo de sesión,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Tarea técnica,T-002-05,Implementar estados de error y cierre de sesión,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Tarea técnica,T-002-06,Proteger rutas y operaciones autenticadas,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Prueba,P-002-01,Credenciales válidas,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Prueba,P-002-02,Credenciales inválidas,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Prueba,P-002-03,Sesión persistente,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Prueba,P-002-04,Acceso a ruta protegida,Pendiente,Por asignar
+HU-002,Inicio de sesión,Alta,Prueba,P-002-05,Cierre de sesión,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Tarea técnica,T-003-01,Definir campos editables del perfil,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Tarea técnica,T-003-02,Implementar consulta de perfil,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Tarea técnica,T-003-03,Implementar edición y actualización,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Tarea técnica,T-003-04,Aplicar validaciones,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Tarea técnica,T-003-05,Integrar persistencia,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Prueba,P-003-01,Consulta de perfil,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Prueba,P-003-02,Actualización válida,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Prueba,P-003-03,Datos inválidos,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Prueba,P-003-04,Persistencia de cambios,Pendiente,Por asignar
+HU-003,Gestión del perfil,Media,Prueba,P-003-05,Acceso sin autenticación,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Tarea técnica,T-004-01,Definir modelo de listado de restaurantes,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Tarea técnica,T-004-02,Crear consulta de restaurantes disponibles,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Tarea técnica,T-004-03,Implementar pantalla de catálogo,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Tarea técnica,T-004-04,Implementar navegación al detalle,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Tarea técnica,T-004-05,"Manejar carga, vacío y error",Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Prueba,P-004-01,Listado con datos,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Prueba,P-004-02,Catálogo vacío,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Prueba,P-004-03,Error de consulta,Pendiente,Por asignar
+HU-004,Explorar restaurantes,Alta,Prueba,P-004-04,Apertura de detalle,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Tarea técnica,T-005-01,Diseñar modelo de detalle,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Tarea técnica,T-005-02,Implementar consulta por restaurante,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Tarea técnica,T-005-03,Construir pantalla de detalle,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Tarea técnica,T-005-04,"Integrar platos, horarios y ubicación",Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Tarea técnica,T-005-05,Manejar información faltante,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Prueba,P-005-01,Detalle completo,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Prueba,P-005-02,Sin horarios,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Prueba,P-005-03,Sin ubicación,Pendiente,Por asignar
+HU-005,Detalle del restaurante,Alta,Prueba,P-005-04,Restaurante inexistente,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Tarea técnica,T-006-01,Definir estructura de platos,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Tarea técnica,T-006-02,Implementar consulta de platos por restaurante,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Tarea técnica,T-006-03,Construir listado de platos,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Tarea técnica,T-006-04,Implementar navegación al detalle,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Tarea técnica,T-006-05,Manejar disponibilidad,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Prueba,P-006-01,Listado de platos,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Prueba,P-006-02,Restaurante sin platos,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Prueba,P-006-03,Plato no disponible,Pendiente,Por asignar
+HU-006,Consultar platos,Alta,Prueba,P-006-04,Consulta errónea,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Tarea técnica,T-007-01,Definir formato y tipo de precio,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Tarea técnica,T-007-02,Integrar precio en modelo de plato,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Tarea técnica,T-007-03,Mostrar precio en listado,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Tarea técnica,T-007-04,Mostrar precio en detalle,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Tarea técnica,T-007-05,Validar consistencia del dato,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Prueba,P-007-01,Precio válido,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Prueba,P-007-02,Precio ausente,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Prueba,P-007-03,Formato de precio,Pendiente,Por asignar
+HU-007,Consultar precios,Alta,Prueba,P-007-04,Consistencia listado-detalle,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Tarea técnica,T-008-01,Definir estructura de horarios,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Tarea técnica,T-008-02,Implementar consulta de horarios,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Tarea técnica,T-008-03,Mostrar horarios en detalle,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Tarea técnica,T-008-04,Validar formato y consistencia,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Tarea técnica,T-008-05,Manejar horario no registrado,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Prueba,P-008-01,Horario completo,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Prueba,P-008-02,Día sin horario,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Prueba,P-008-03,Formato inválido,Pendiente,Por asignar
+HU-008,Consultar horarios,Alta,Prueba,P-008-04,Restaurante sin horarios,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Tarea técnica,T-009-01,Definir modelo de ubicación,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Tarea técnica,T-009-02,Integrar ubicación en restaurante,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Tarea técnica,T-009-03,Implementar presentación de ubicación,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Tarea técnica,T-009-04,Validar datos geográficos/dirección,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Tarea técnica,T-009-05,Manejar ubicación ausente,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Prueba,P-009-01,Ubicación válida,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Prueba,P-009-02,Ubicación ausente,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Prueba,P-009-03,Restaurante incorrecto,Pendiente,Por asignar
+HU-009,Consultar ubicación,Alta,Prueba,P-009-04,Datos inválidos,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Tarea técnica,T-010-01,Definir campos y reglas de búsqueda,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Tarea técnica,T-010-02,Implementar consulta/búsqueda,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Tarea técnica,T-010-03,Construir interfaz de búsqueda,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Tarea técnica,T-010-04,Implementar estados de resultados,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Tarea técnica,T-010-05,Optimizar consulta inicial,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Prueba,P-010-01,Coincidencia por restaurante,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Prueba,P-010-02,Coincidencia por plato,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Prueba,P-010-03,Sin resultados,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Prueba,P-010-04,Búsqueda vacía,Pendiente,Por asignar
+HU-010,Buscar opciones gastronómicas,Alta,Prueba,P-010-05,Error de búsqueda,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Tarea técnica,T-011-01,Definir filtros incluidos en MVP,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Tarea técnica,T-011-02,Diseñar parámetros de filtro,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Tarea técnica,T-011-03,Implementar lógica de filtrado,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Tarea técnica,T-011-04,Integrar filtros con búsqueda,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Tarea técnica,T-011-05,Implementar limpiar filtros,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Prueba,P-011-01,Un filtro,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Prueba,P-011-02,Múltiples filtros,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Prueba,P-011-03,Sin coincidencias,Pendiente,Por asignar
+HU-011,Filtrar resultados,Media,Prueba,P-011-04,Limpiar filtros,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Tarea técnica,T-012-01,Definir estructura de detalle,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Tarea técnica,T-012-02,Implementar consulta por plato,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Tarea técnica,T-012-03,Construir pantalla de detalle,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Tarea técnica,T-012-04,Integrar precio e información disponible,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Tarea técnica,T-012-05,Implementar navegación de retorno,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Prueba,P-012-01,Detalle válido,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Prueba,P-012-02,Precio ausente,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Prueba,P-012-03,Plato inexistente,Pendiente,Por asignar
+HU-012,Detalle de plato,Alta,Prueba,P-012-04,Retorno al restaurante,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Tarea técnica,T-013-01,Definir eventos de interacción del MVP,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Tarea técnica,T-013-02,Diseñar estructura de evento,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Tarea técnica,T-013-03,Implementar captura de eventos,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Tarea técnica,T-013-04,Persistir interacción asociada al usuario,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Tarea técnica,T-013-05,Evitar duplicaciones indebidas,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Tarea técnica,T-013-06,Documentar eventos,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Prueba,P-013-01,Evento válido,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Prueba,P-013-02,Usuario autenticado,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Prueba,P-013-03,Interacción sin usuario,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Prueba,P-013-04,Duplicación,Pendiente,Por asignar
+HU-013,Registrar interacción,Alta,Prueba,P-013-05,Fallo de persistencia sin bloquear navegación,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Tarea técnica,T-014-01,Definir catálogo inicial de preferencias,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Tarea técnica,T-014-02,Crear modelo de preferencias,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Tarea técnica,T-014-03,Implementar interfaz de selección,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Tarea técnica,T-014-04,Persistir preferencias,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Tarea técnica,T-014-05,Implementar actualización,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Tarea técnica,T-014-06,Exponer preferencias al recomendador,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Prueba,P-014-01,Selección válida,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Prueba,P-014-02,Actualización,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Prueba,P-014-03,Sin preferencias,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Prueba,P-014-04,Persistencia,Pendiente,Por asignar
+HU-014,Registrar preferencias,Alta,Prueba,P-014-05,Preferencias disponibles para IA,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Tarea técnica,T-015-01,Definir estructura de historial,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Tarea técnica,T-015-02,Persistir búsquedas,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Tarea técnica,T-015-03,Implementar consulta del historial,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Tarea técnica,T-015-04,Aplicar aislamiento por usuario,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Tarea técnica,T-015-05,Definir reglas de conservación/gestión,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Prueba,P-015-01,Guardado de búsqueda,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Prueba,P-015-02,Consulta de historial,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Prueba,P-015-03,Aislamiento entre usuarios,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Prueba,P-015-04,Historial vacío,Pendiente,Por asignar
+HU-015,Consultar historial de búsqueda,Media,Prueba,P-015-05,Error de consulta,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-01,Definir entradas y salidas del recomendador,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-02,Preparar dataset y variables,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-03,Implementar algoritmo candidato,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-04,Implementar generación de recomendaciones,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-05,Aplicar reglas de disponibilidad y datos válidos,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-06,Integrar estrategia de cold start,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Tarea técnica,T-016-07,Registrar resultados para evaluación,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Prueba,P-016-01,Usuario con historial,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Prueba,P-016-02,Usuario con preferencias,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Prueba,P-016-03,Datos insuficientes,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Prueba,P-016-04,Entidades no disponibles,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Prueba,P-016-05,Respuesta válida,Pendiente,Por asignar
+HU-016,Generar recomendaciones,Alta,Prueba,P-016-06,Recomendaciones reproducibles con misma entrada,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-01,Definir contrato de API de recomendaciones,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-02,Implementar endpoint,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-03,Implementar validación de entrada,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-04,Conectar API con motor,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-05,Implementar manejo de errores,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-06,Integrar cliente móvil,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Tarea técnica,T-017-07,Documentar API,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Prueba,P-017-01,Request válido,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Prueba,P-017-02,Request inválido,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Prueba,P-017-03,Respuesta del motor,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Prueba,P-017-04,Motor no disponible,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Prueba,P-017-05,Timeout/error de red,Pendiente,Por asignar
+HU-017,Integrar motor de recomendación,Alta,Prueba,P-017-06,Integración móvil,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Tarea técnica,T-018-01,Definir componente visual de recomendación,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Tarea técnica,T-018-02,Implementar consumo del endpoint,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Tarea técnica,T-018-03,Mostrar tarjetas/listado de recomendaciones,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Tarea técnica,T-018-04,Implementar navegación al detalle,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Tarea técnica,T-018-05,"Manejar carga, vacío y error",Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Prueba,P-018-01,Recomendaciones válidas,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Prueba,P-018-02,Sin recomendaciones,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Prueba,P-018-03,Error del servicio,Pendiente,Por asignar
+HU-018,Visualizar recomendaciones,Alta,Prueba,P-018-04,Navegación al detalle,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Tarea técnica,T-019-01,Definir permisos de actualización,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Tarea técnica,T-019-02,Implementar formularios de edición,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Tarea técnica,T-019-03,Implementar validaciones,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Tarea técnica,T-019-04,Implementar persistencia,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Tarea técnica,T-019-05,Reflejar cambios en catálogo,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Tarea técnica,T-019-06,Registrar errores/operaciones relevantes,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Prueba,P-019-01,Actualización válida,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Prueba,P-019-02,Datos inválidos,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Prueba,P-019-03,Usuario sin permisos,Pendiente,Por asignar
+HU-019,Actualizar información gastronómica,Alta,Prueba,P-019-04,Reflejo en catálogo,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Tarea técnica,T-020-01,Definir modelo y campos obligatorios,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Tarea técnica,T-020-02,Implementar alta de restaurante,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Tarea técnica,T-020-03,Implementar consulta,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Tarea técnica,T-020-04,Implementar edición,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Tarea técnica,T-020-05,Implementar controles de permisos,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Tarea técnica,T-020-06,Validar integridad de datos,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Prueba,P-020-01,Crear restaurante,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Prueba,P-020-02,Consultar restaurante,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Prueba,P-020-03,Editar restaurante,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Prueba,P-020-04,Datos obligatorios,Pendiente,Por asignar
+HU-020,Gestionar restaurantes,Alta,Prueba,P-020-05,Acceso sin permisos,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Tarea técnica,T-021-01,Definir campos obligatorios de plato,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Tarea técnica,T-021-02,Implementar alta de plato,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Tarea técnica,T-021-03,Implementar consulta,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Tarea técnica,T-021-04,Implementar edición,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Tarea técnica,T-021-05,Asociar plato a restaurante,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Tarea técnica,T-021-06,Gestionar disponibilidad/publicación,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Prueba,P-021-01,Crear plato,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Prueba,P-021-02,Editar plato,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Prueba,P-021-03,Asociación correcta,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Prueba,P-021-04,Datos inválidos,Pendiente,Por asignar
+HU-021,Gestionar platos,Alta,Prueba,P-021-05,Disponibilidad,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Tarea técnica,T-022-01,Definir estructura y reglas de horarios,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Tarea técnica,T-022-02,Implementar registro,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Tarea técnica,T-022-03,Implementar edición,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Tarea técnica,T-022-04,Validar inconsistencias,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Tarea técnica,T-022-05,Integrar horarios al catálogo,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Prueba,P-022-01,Registrar horario,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Prueba,P-022-02,Editar horario,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Prueba,P-022-03,Horario inválido,Pendiente,Por asignar
+HU-022,Gestionar horarios,Media,Prueba,P-022-04,Reflejo en catálogo,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Tarea técnica,T-023-01,Definir estructura de ubicación,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Tarea técnica,T-023-02,Implementar registro,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Tarea técnica,T-023-03,Implementar edición,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Tarea técnica,T-023-04,Validar ubicación,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Tarea técnica,T-023-05,Integrar visualización al catálogo,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Prueba,P-023-01,Registrar ubicación,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Prueba,P-023-02,Editar ubicación,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Prueba,P-023-03,Ubicación inválida,Pendiente,Por asignar
+HU-023,Gestionar ubicación,Media,Prueba,P-023-04,Reflejo en catálogo,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Tarea técnica,T-024-01,Seleccionar métricas de evaluación,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Tarea técnica,T-024-02,Preparar conjunto de evaluación,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Tarea técnica,T-024-03,Implementar script de evaluación,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Tarea técnica,T-024-04,Ejecutar métricas,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Tarea técnica,T-024-05,Guardar resultados,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Tarea técnica,T-024-06,Generar reporte comparativo,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Prueba,P-024-01,Ejecución de evaluación,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Prueba,P-024-02,Cálculo de métricas,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Prueba,P-024-03,Repetibilidad,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Prueba,P-024-04,Comparación de modelos,Pendiente,Por asignar
+HU-024,Evaluar recomendaciones,Alta,Prueba,P-024-05,Registro de resultados,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Tarea técnica,T-025-01,Definir condición de cold start,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Tarea técnica,T-025-02,Diseñar estrategia inicial,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Tarea técnica,T-025-03,Implementar fallback de recomendación,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Tarea técnica,T-025-04,Integrar con motor principal,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Tarea técnica,T-025-05,Registrar comportamiento para evaluación,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Prueba,P-025-01,Usuario sin historial,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Prueba,P-025-02,Usuario con pocas interacciones,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Prueba,P-025-03,Fallback válido,Pendiente,Por asignar
+HU-025,Manejo de usuario nuevo,Alta,Prueba,P-025-04,No mostrar entidades inexistentes,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-01a,Definir contrato y esquema del dataset de entrenamiento,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-01b,"Definir variables, eventos y partición de datos",Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-02,Definir dataset de evaluación,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-03,Implementar preparación de datos,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-04a,Implementar pipeline de entrenamiento reproducible,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-04b,Versionar y registrar el modelo entrenado,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-05,Separar y proteger evaluación,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-06,Versionar configuración del experimento,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Tarea técnica,T-026-07,Registrar resultados,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Prueba,P-026-01,Separación entrenamiento/evaluación,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Prueba,P-026-02,Entrenamiento reproducible,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Prueba,P-026-03,Sin fuga de datos,Pendiente,Por asignar
+HU-026,Entrenamiento y evaluación del modelo,Alta,Prueba,P-026-04,Registro de experimento,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Tarea técnica,T-027-01,Configurar proyecto React Native,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Tarea técnica,T-027-02,Definir plataformas objetivo,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Tarea técnica,T-027-03,Verificar navegación y componentes,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Tarea técnica,T-027-04,Ejecutar build por plataforma,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Tarea técnica,T-027-05,Registrar incompatibilidades y corregirlas,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Prueba,P-027-01,Build plataforma 1,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Prueba,P-027-02,Build plataforma 2,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Prueba,P-027-03,Funciones críticas multiplataforma,Pendiente,Por asignar
+HU-027,Aplicación multiplataforma,Alta,Prueba,P-027-04,Navegación consistente,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Tarea técnica,T-028-01,Definir tareas críticas de evaluación,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Tarea técnica,T-028-02,Preparar prototipo/interfaz,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Tarea técnica,T-028-03,Ejecutar prueba de usabilidad,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Tarea técnica,T-028-04,Registrar problemas,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Tarea técnica,T-028-05,Implementar mejoras priorizadas,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Tarea técnica,T-028-06,Repetir evaluación,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Prueba,P-028-01,Completar tarea de registro,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Prueba,P-028-02,Buscar restaurante,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Prueba,P-028-03,Consultar plato,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Prueba,P-028-04,Encontrar recomendaciones,Pendiente,Por asignar
+HU-028,Usabilidad del MVP,Alta,Prueba,P-028-05,Evaluación de comprensión,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Tarea técnica,T-029-01,Definir operaciones críticas,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Tarea técnica,T-029-02,Establecer umbrales de rendimiento,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Tarea técnica,T-029-03,Instrumentar medición,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Tarea técnica,T-029-04,Ejecutar pruebas de respuesta,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Tarea técnica,T-029-05,Analizar resultados,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Tarea técnica,T-029-06,Optimizar puntos críticos,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Prueba,P-029-01,Tiempo de consulta,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Prueba,P-029-02,Tiempo de búsqueda,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Prueba,P-029-03,Tiempo de recomendación,Pendiente,Por asignar
+HU-029,Rendimiento,Media,Prueba,P-029-04,Comportamiento bajo carga controlada,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Tarea técnica,T-030-01,Revisar separación de responsabilidades,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Tarea técnica,T-030-02,"Definir límites entre móvil, API, BD y recomendador",Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Tarea técnica,T-030-03,Revisar consultas y acceso a datos,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Tarea técnica,T-030-04,Documentar puntos de crecimiento,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Tarea técnica,T-030-05,Ejecutar prueba básica de crecimiento,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Prueba,P-030-01,Incremento de registros,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Prueba,P-030-02,Incremento de consultas,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Prueba,P-030-03,Separación de componentes,Pendiente,Por asignar
+HU-030,Escalabilidad,Media,Prueba,P-030-04,Integridad bajo crecimiento,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Tarea técnica,T-031-01,Identificar servicios externos críticos,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Tarea técnica,T-031-02,Definir objetivo de disponibilidad del MVP,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Tarea técnica,T-031-03,Implementar estados de error y fallback,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Tarea técnica,T-031-04,Registrar incidentes,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Tarea técnica,T-031-05,Ejecutar pruebas de indisponibilidad,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Prueba,P-031-01,Servicio disponible,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Prueba,P-031-02,Backend indisponible,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Prueba,P-031-03,Recomendador indisponible,Pendiente,Por asignar
+HU-031,Disponibilidad,Media,Prueba,P-031-04,Recuperación,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Tarea técnica,T-032-01,Revisar configuración de autenticación,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Tarea técnica,T-032-02,Configurar autorización por roles,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Tarea técnica,T-032-03,Revisar protección de rutas,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Tarea técnica,T-032-04,Revisar políticas de acceso a datos,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Tarea técnica,T-032-05,Ejecutar pruebas de acceso no autorizado,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Prueba,P-032-01,Acceso válido,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Prueba,P-032-02,Acceso sin sesión,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Prueba,P-032-03,Rol insuficiente,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Prueba,P-032-04,Acceso a datos de otro usuario,Pendiente,Por asignar
+HU-032,Seguridad de acceso,Alta,Prueba,P-032-05,Credenciales no expuestas,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Tarea técnica,T-033-01,Inventariar datos personales,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Tarea técnica,T-033-02,Clasificar datos usados por recomendador,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Tarea técnica,T-033-03,Definir propósito y acceso,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Tarea técnica,T-033-04,Revisar políticas de base de datos,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Tarea técnica,T-033-05,Documentar tratamiento de datos,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Tarea técnica,T-033-06,Validar minimización de datos,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Prueba,P-033-01,Acceso por rol,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Prueba,P-033-02,Aislamiento de datos,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Prueba,P-033-03,Datos mínimos,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Prueba,P-033-04,Uso de datos del recomendador,Pendiente,Por asignar
+HU-033,Privacidad de datos,Alta,Prueba,P-033-05,Registro/documentación,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Tarea técnica,T-034-01,Definir estructura de carpetas y módulos,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Tarea técnica,T-034-02,Establecer convenciones de código,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Tarea técnica,T-034-03,Configurar lint/formateo,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Tarea técnica,T-034-04,Documentar decisiones técnicas,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Tarea técnica,T-034-05,Revisar dependencias,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Tarea técnica,T-034-06,Realizar revisión de código,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Prueba,P-034-01,Lint,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Prueba,P-034-02,Formato,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Prueba,P-034-03,Estructura modular,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Prueba,P-034-04,Revisión de código,Pendiente,Por asignar
+HU-034,Mantenibilidad,Media,Prueba,P-034-05,Documentación,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-01,Definir contratos API,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-02,Implementar validación de requests,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-03,Implementar respuestas y errores,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-04,Configurar cliente móvil,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-05,Integrar backend-recomendador,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-06,Documentar endpoints,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Tarea técnica,T-035-07,Crear colección Postman,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Prueba,P-035-01,Request válido,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Prueba,P-035-02,Request inválido,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Prueba,P-035-03,Error controlado,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Prueba,P-035-04,Integración móvil,Pendiente,Por asignar
+HU-035,Integración mediante API,Alta,Prueba,P-035-05,Integración backend-recomendador,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-01,Consolidar matriz HU-requisito-prueba,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-02,Preparar suite de pruebas,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-03,Ejecutar pruebas funcionales,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-04,Ejecutar pruebas no funcionales,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-05,Registrar y clasificar defectos,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-06,Ejecutar regresión,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Tarea técnica,T-036-07,Preparar evidencia de aceptación,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Prueba,P-036-01,Suite funcional,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Prueba,P-036-02,Suite no funcional,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Prueba,P-036-03,Regresión,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Prueba,P-036-04,Defectos críticos,Pendiente,Por asignar
+HU-036,Calidad integral,Alta,Prueba,P-036-05,Evidencia de aceptación,Pendiente,Por asignar

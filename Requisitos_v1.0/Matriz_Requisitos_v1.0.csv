@@ -1,0 +1,40 @@
+﻿Código,Nombre,Prioridad,Documento
+RF-001,Registro de usuario,Alta,RF-001_Registro_de_usuario.md
+RF-002,Inicio de sesión,Alta,RF-002_Inicio_de_sesion.md
+RF-003,Gestión básica del perfil,Alta,RF-003_Gestion_basica_del_perfil.md
+RF-004,Consulta de restaurantes,Alta,RF-004_Consulta_de_restaurantes.md
+RF-005,Consulta de información del restaurante,Alta,RF-005_Consulta_de_informacion_del_restaurante.md
+RF-006,Consulta de platos,Alta,RF-006_Consulta_de_platos.md
+RF-007,Consulta de precios,Alta,RF-007_Consulta_de_precios.md
+RF-008,Consulta de horarios,Alta,RF-008_Consulta_de_horarios.md
+RF-009,Consulta de ubicación,Alta,RF-009_Consulta_de_ubicacion.md
+RF-010,Búsqueda gastronómica,Alta,RF-010_Busqueda_gastronomica.md
+RF-011,Visualización del detalle de un plato,Alta,RF-011_Visualizacion_del_detalle_de_un_plato.md
+RF-012,Registro de interacciones,Alta,RF-012_Registro_de_interacciones.md
+RF-013,Registro de preferencias,Alta,RF-013_Registro_de_preferencias.md
+RF-014,Historial de búsqueda,Alta,RF-014_Historial_de_busqueda.md
+RF-015,Generación de recomendaciones,Alta,RF-015_Generacion_de_recomendaciones.md
+RF-016,Integración del motor de recomendación,Alta,RF-016_Integracion_del_motor_de_recomendacion.md
+RF-017,Presentación de recomendaciones,Alta,RF-017_Presentacion_de_recomendaciones.md
+RF-018,Actualización de información gastronómica,Alta,RF-018_Actualizacion_de_informacion_gastronomica.md
+RF-019,Gestión de restaurantes,Alta,RF-019_Gestion_de_restaurantes.md
+RF-020,Gestión de platos,Alta,RF-020_Gestion_de_platos.md
+RF-021,Gestión de horarios,Alta,RF-021_Gestion_de_horarios.md
+RF-022,Gestión de ubicación,Alta,RF-022_Gestion_de_ubicacion.md
+RF-023,Evaluación del sistema de recomendaciones,Alta,RF-023_Evaluacion_del_sistema_de_recomendaciones.md
+RNF-001,Multiplataforma,Alta,RNF-001_Multiplataforma.md
+RNF-002,Usabilidad,Alta,RNF-002_Usabilidad.md
+RNF-003,Rendimiento,Alta,RNF-003_Rendimiento.md
+RNF-004,Escalabilidad,Alta,RNF-004_Escalabilidad.md
+RNF-005,Disponibilidad,Alta,RNF-005_Disponibilidad.md
+RNF-006,Seguridad,Alta,RNF-006_Seguridad.md
+RNF-007,Privacidad,Alta,RNF-007_Privacidad.md
+RNF-008,Mantenibilidad,Alta,RNF-008_Mantenibilidad.md
+RNF-009,Integrabilidad,Alta,RNF-009_Integrabilidad.md
+RNF-010,Calidad del software,Alta,RNF-010_Calidad_del_software.md
+RIA-001,Personalización,Alta,RIA-001_Personalizacion.md
+RIA-002,Información utilizada por el recomendador,Alta,RIA-002_Informacion_utilizada.md
+RIA-003,Algoritmo de recomendación,Alta,RIA-003_Algoritmo_de_recomendacion.md
+RIA-004,Datos de entrenamiento y evaluación,Alta,RIA-004_Datos_de_entrenamiento.md
+RIA-005,Manejo del Cold Start,Alta,RIA-005_Cold_Start.md
+RIA-006,Evaluación del recomendador,Alta,RIA-006_Evaluacion_del_recomendador.md

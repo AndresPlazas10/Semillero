@@ -1,0 +1,369 @@
+﻿ID,HU,Historia de usuario,Tipo,Descripción,Estimación (SP),Estimación (horas),Dependencia directa,Sprint sugerido,Condición
+T-001-01,HU-001,Registro de usuario,Tarea técnica,Definir campos y reglas de validación del registro,1,2,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-001-02,HU-001,Registro de usuario,Tarea técnica,Configurar entidad/tabla de usuario y restricciones,3,6,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-001-03,HU-001,Registro de usuario,Tarea técnica,Implementar formulario de registro en móvil,3,6,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-001-04,HU-001,Registro de usuario,Tarea técnica,Implementar servicio de creación de usuario y manejo de errores,3,6,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-001-05,HU-001,Registro de usuario,Tarea técnica,Integrar validaciones cliente/servidor,3,6,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-001-06,HU-001,Registro de usuario,Tarea técnica,Documentar contrato y comportamiento del registro,3,6,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-001-01,HU-001,Registro de usuario,Prueba,Registro válido,1,1,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-001-02,HU-001,Registro de usuario,Prueba,Campos obligatorios inválidos,1,1,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-001-03,HU-001,Registro de usuario,Prueba,Identificador duplicado,1,1,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-001-04,HU-001,Registro de usuario,Prueba,Persistencia de usuario,1,1,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-001-05,HU-001,Registro de usuario,Prueba,Error controlado de servicio,1,1,HU-027,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-002-01,HU-002,Inicio de sesión,Tarea técnica,Definir flujo de autenticación,1,2,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-002-02,HU-002,Inicio de sesión,Tarea técnica,Configurar autenticación en Supabase,3,6,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-002-03,HU-002,Inicio de sesión,Tarea técnica,Implementar pantalla de inicio de sesión,3,6,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-002-04,HU-002,Inicio de sesión,Tarea técnica,Implementar manejo de sesión,3,6,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-002-05,HU-002,Inicio de sesión,Tarea técnica,Implementar estados de error y cierre de sesión,3,6,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-002-06,HU-002,Inicio de sesión,Tarea técnica,Proteger rutas y operaciones autenticadas,1,2,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-002-01,HU-002,Inicio de sesión,Prueba,Credenciales válidas,1,1,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-002-02,HU-002,Inicio de sesión,Prueba,Credenciales inválidas,1,1,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-002-03,HU-002,Inicio de sesión,Prueba,Sesión persistente,1,1,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-002-04,HU-002,Inicio de sesión,Prueba,Acceso a ruta protegida,1,1,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-002-05,HU-002,Inicio de sesión,Prueba,Cierre de sesión,1,1,"HU-001, HU-027",Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-003-01,HU-003,Gestión del perfil,Tarea técnica,Definir campos editables del perfil,1,2,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-003-02,HU-003,Gestión del perfil,Tarea técnica,Implementar consulta de perfil,3,6,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-003-03,HU-003,Gestión del perfil,Tarea técnica,Implementar edición y actualización,3,6,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-003-04,HU-003,Gestión del perfil,Tarea técnica,Aplicar validaciones,1,2,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-003-05,HU-003,Gestión del perfil,Tarea técnica,Integrar persistencia,3,6,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-003-01,HU-003,Gestión del perfil,Prueba,Consulta de perfil,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-003-02,HU-003,Gestión del perfil,Prueba,Actualización válida,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-003-03,HU-003,Gestión del perfil,Prueba,Datos inválidos,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-003-04,HU-003,Gestión del perfil,Prueba,Persistencia de cambios,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-003-05,HU-003,Gestión del perfil,Prueba,Acceso sin autenticación,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-004-01,HU-004,Explorar restaurantes,Tarea técnica,Definir modelo de listado de restaurantes,3,6,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-004-02,HU-004,Explorar restaurantes,Tarea técnica,Crear consulta de restaurantes disponibles,1,2,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-004-03,HU-004,Explorar restaurantes,Tarea técnica,Implementar pantalla de catálogo,3,6,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-004-04,HU-004,Explorar restaurantes,Tarea técnica,Implementar navegación al detalle,3,6,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-004-05,HU-004,Explorar restaurantes,Tarea técnica,"Manejar carga, vacío y error",1,2,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-004-01,HU-004,Explorar restaurantes,Prueba,Listado con datos,1,1,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-004-02,HU-004,Explorar restaurantes,Prueba,Catálogo vacío,1,1,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-004-03,HU-004,Explorar restaurantes,Prueba,Error de consulta,1,1,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-004-04,HU-004,Explorar restaurantes,Prueba,Apertura de detalle,1,1,Datos iniciales (seed) — gestión en Incremento 2,Sprint 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-005-01,HU-005,Detalle del restaurante,Tarea técnica,Diseñar modelo de detalle,3,6,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-005-02,HU-005,Detalle del restaurante,Tarea técnica,Implementar consulta por restaurante,3,6,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-005-03,HU-005,Detalle del restaurante,Tarea técnica,Construir pantalla de detalle,1,2,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-005-04,HU-005,Detalle del restaurante,Tarea técnica,"Integrar platos, horarios y ubicación",3,6,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-005-05,HU-005,Detalle del restaurante,Tarea técnica,Manejar información faltante,1,2,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-005-01,HU-005,Detalle del restaurante,Prueba,Detalle completo,1,1,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-005-02,HU-005,Detalle del restaurante,Prueba,Sin horarios,1,1,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-005-03,HU-005,Detalle del restaurante,Prueba,Sin ubicación,1,1,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-005-04,HU-005,Detalle del restaurante,Prueba,Restaurante inexistente,1,1,HU-004,Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-006-01,HU-006,Consultar platos,Tarea técnica,Definir estructura de platos,1,2,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-006-02,HU-006,Consultar platos,Tarea técnica,Implementar consulta de platos por restaurante,3,6,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-006-03,HU-006,Consultar platos,Tarea técnica,Construir listado de platos,1,2,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-006-04,HU-006,Consultar platos,Tarea técnica,Implementar navegación al detalle,3,6,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-006-05,HU-006,Consultar platos,Tarea técnica,Manejar disponibilidad,1,2,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-006-01,HU-006,Consultar platos,Prueba,Listado de platos,1,1,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-006-02,HU-006,Consultar platos,Prueba,Restaurante sin platos,1,1,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-006-03,HU-006,Consultar platos,Prueba,Plato no disponible,1,1,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+P-006-04,HU-006,Consultar platos,Prueba,Consulta errónea,1,1,HU-005; datos iniciales (seed),Sprint 3,Respetar dependencias de la HU y completar criterios de aceptación
+T-007-01,HU-007,Consultar precios,Tarea técnica,Definir formato y tipo de precio,1,2,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-007-02,HU-007,Consultar precios,Tarea técnica,Integrar precio en modelo de plato,3,6,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-007-03,HU-007,Consultar precios,Tarea técnica,Mostrar precio en listado,1,2,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-007-04,HU-007,Consultar precios,Tarea técnica,Mostrar precio en detalle,1,2,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-007-05,HU-007,Consultar precios,Tarea técnica,Validar consistencia del dato,1,2,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-007-01,HU-007,Consultar precios,Prueba,Precio válido,1,1,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-007-02,HU-007,Consultar precios,Prueba,Precio ausente,1,1,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-007-03,HU-007,Consultar precios,Prueba,Formato de precio,1,1,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-007-04,HU-007,Consultar precios,Prueba,Consistencia listado-detalle,1,1,HU-006,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-008-01,HU-008,Consultar horarios,Tarea técnica,Definir estructura de horarios,1,2,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-008-02,HU-008,Consultar horarios,Tarea técnica,Implementar consulta de horarios,3,6,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-008-03,HU-008,Consultar horarios,Tarea técnica,Mostrar horarios en detalle,1,2,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-008-04,HU-008,Consultar horarios,Tarea técnica,Validar formato y consistencia,1,2,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-008-05,HU-008,Consultar horarios,Tarea técnica,Manejar horario no registrado,1,2,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-008-01,HU-008,Consultar horarios,Prueba,Horario completo,1,1,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-008-02,HU-008,Consultar horarios,Prueba,Día sin horario,1,1,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-008-03,HU-008,Consultar horarios,Prueba,Formato inválido,1,1,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-008-04,HU-008,Consultar horarios,Prueba,Restaurante sin horarios,1,1,"HU-005, HU-021",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-009-01,HU-009,Consultar ubicación,Tarea técnica,Definir modelo de ubicación,3,6,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-009-02,HU-009,Consultar ubicación,Tarea técnica,Integrar ubicación en restaurante,3,6,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-009-03,HU-009,Consultar ubicación,Tarea técnica,Implementar presentación de ubicación,3,6,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-009-04,HU-009,Consultar ubicación,Tarea técnica,Validar datos geográficos/dirección,1,2,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-009-05,HU-009,Consultar ubicación,Tarea técnica,Manejar ubicación ausente,1,2,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-009-01,HU-009,Consultar ubicación,Prueba,Ubicación válida,1,1,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-009-02,HU-009,Consultar ubicación,Prueba,Ubicación ausente,1,1,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-009-03,HU-009,Consultar ubicación,Prueba,Restaurante incorrecto,1,1,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-009-04,HU-009,Consultar ubicación,Prueba,Datos inválidos,1,1,"HU-005, HU-022",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-010-01,HU-010,Buscar opciones gastronómicas,Tarea técnica,Definir campos y reglas de búsqueda,1,2,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-010-02,HU-010,Buscar opciones gastronómicas,Tarea técnica,Implementar consulta/búsqueda,3,6,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-010-03,HU-010,Buscar opciones gastronómicas,Tarea técnica,Construir interfaz de búsqueda,1,2,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-010-04,HU-010,Buscar opciones gastronómicas,Tarea técnica,Implementar estados de resultados,3,6,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-010-05,HU-010,Buscar opciones gastronómicas,Tarea técnica,Optimizar consulta inicial,1,2,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-010-01,HU-010,Buscar opciones gastronómicas,Prueba,Coincidencia por restaurante,1,1,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-010-02,HU-010,Buscar opciones gastronómicas,Prueba,Coincidencia por plato,1,1,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-010-03,HU-010,Buscar opciones gastronómicas,Prueba,Sin resultados,1,1,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-010-04,HU-010,Buscar opciones gastronómicas,Prueba,Búsqueda vacía,1,1,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-010-05,HU-010,Buscar opciones gastronómicas,Prueba,Error de búsqueda,1,1,"HU-004, HU-020",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-011-01,HU-011,Filtrar resultados,Tarea técnica,Definir filtros incluidos en MVP,1,2,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-011-02,HU-011,Filtrar resultados,Tarea técnica,Diseñar parámetros de filtro,1,2,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-011-03,HU-011,Filtrar resultados,Tarea técnica,Implementar lógica de filtrado,3,6,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-011-04,HU-011,Filtrar resultados,Tarea técnica,Integrar filtros con búsqueda,3,6,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-011-05,HU-011,Filtrar resultados,Tarea técnica,Implementar limpiar filtros,3,6,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-011-01,HU-011,Filtrar resultados,Prueba,Un filtro,1,1,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-011-02,HU-011,Filtrar resultados,Prueba,Múltiples filtros,1,1,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-011-03,HU-011,Filtrar resultados,Prueba,Sin coincidencias,1,1,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-011-04,HU-011,Filtrar resultados,Prueba,Limpiar filtros,1,1,HU-010,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-012-01,HU-012,Detalle de plato,Tarea técnica,Definir estructura de detalle,1,2,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-012-02,HU-012,Detalle de plato,Tarea técnica,Implementar consulta por plato,3,6,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-012-03,HU-012,Detalle de plato,Tarea técnica,Construir pantalla de detalle,1,2,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-012-04,HU-012,Detalle de plato,Tarea técnica,Integrar precio e información disponible,3,6,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-012-05,HU-012,Detalle de plato,Tarea técnica,Implementar navegación de retorno,3,6,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-012-01,HU-012,Detalle de plato,Prueba,Detalle válido,1,1,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-012-02,HU-012,Detalle de plato,Prueba,Precio ausente,1,1,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-012-03,HU-012,Detalle de plato,Prueba,Plato inexistente,1,1,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-012-04,HU-012,Detalle de plato,Prueba,Retorno al restaurante,1,1,HU-006,Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-013-01,HU-013,Registrar interacción,Tarea técnica,Definir eventos de interacción del MVP,1,2,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-013-02,HU-013,Registrar interacción,Tarea técnica,Diseñar estructura de evento,1,2,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-013-03,HU-013,Registrar interacción,Tarea técnica,Implementar captura de eventos,3,6,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-013-04,HU-013,Registrar interacción,Tarea técnica,Persistir interacción asociada al usuario,1,2,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-013-05,HU-013,Registrar interacción,Tarea técnica,Evitar duplicaciones indebidas,1,2,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-013-06,HU-013,Registrar interacción,Tarea técnica,Documentar eventos,1,2,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-013-01,HU-013,Registrar interacción,Prueba,Evento válido,1,1,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-013-02,HU-013,Registrar interacción,Prueba,Usuario autenticado,1,1,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-013-03,HU-013,Registrar interacción,Prueba,Interacción sin usuario,1,1,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-013-04,HU-013,Registrar interacción,Prueba,Duplicación,1,1,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+P-013-05,HU-013,Registrar interacción,Prueba,Fallo de persistencia sin bloquear navegación,1,1,"HU-001, HU-002, HU-005",Sprint 4,Respetar dependencias de la HU y completar criterios de aceptación
+T-014-01,HU-014,Registrar preferencias,Tarea técnica,Definir catálogo inicial de preferencias,1,2,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-014-02,HU-014,Registrar preferencias,Tarea técnica,Crear modelo de preferencias,3,6,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-014-03,HU-014,Registrar preferencias,Tarea técnica,Implementar interfaz de selección,3,6,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-014-04,HU-014,Registrar preferencias,Tarea técnica,Persistir preferencias,1,2,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-014-05,HU-014,Registrar preferencias,Tarea técnica,Implementar actualización,3,6,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-014-06,HU-014,Registrar preferencias,Tarea técnica,Exponer preferencias al recomendador,1,2,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-014-01,HU-014,Registrar preferencias,Prueba,Selección válida,1,1,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-014-02,HU-014,Registrar preferencias,Prueba,Actualización,1,1,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-014-03,HU-014,Registrar preferencias,Prueba,Sin preferencias,1,1,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-014-04,HU-014,Registrar preferencias,Prueba,Persistencia,1,1,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-014-05,HU-014,Registrar preferencias,Prueba,Preferencias disponibles para IA,1,1,"HU-001, HU-002",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-015-01,HU-015,Consultar historial de búsqueda,Tarea técnica,Definir estructura de historial,1,2,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-015-02,HU-015,Consultar historial de búsqueda,Tarea técnica,Persistir búsquedas,1,2,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-015-03,HU-015,Consultar historial de búsqueda,Tarea técnica,Implementar consulta del historial,3,6,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-015-04,HU-015,Consultar historial de búsqueda,Tarea técnica,Aplicar aislamiento por usuario,1,2,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-015-05,HU-015,Consultar historial de búsqueda,Tarea técnica,Definir reglas de conservación/gestión,1,2,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-015-01,HU-015,Consultar historial de búsqueda,Prueba,Guardado de búsqueda,1,1,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-015-02,HU-015,Consultar historial de búsqueda,Prueba,Consulta de historial,1,1,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-015-03,HU-015,Consultar historial de búsqueda,Prueba,Aislamiento entre usuarios,1,1,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-015-04,HU-015,Consultar historial de búsqueda,Prueba,Historial vacío,1,1,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-015-05,HU-015,Consultar historial de búsqueda,Prueba,Error de consulta,1,1,"HU-001, HU-002, HU-013",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-01,HU-016,Generar recomendaciones,Tarea técnica,Definir entradas y salidas del recomendador,1,2,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-02,HU-016,Generar recomendaciones,Tarea técnica,Preparar dataset y variables,1,2,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-03,HU-016,Generar recomendaciones,Tarea técnica,Implementar algoritmo candidato,3,6,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-04,HU-016,Generar recomendaciones,Tarea técnica,Implementar generación de recomendaciones,3,6,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-05,HU-016,Generar recomendaciones,Tarea técnica,Aplicar reglas de disponibilidad y datos válidos,1,2,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-06,HU-016,Generar recomendaciones,Tarea técnica,Integrar estrategia de cold start,3,6,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-016-07,HU-016,Generar recomendaciones,Tarea técnica,Registrar resultados para evaluación,1,2,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-016-01,HU-016,Generar recomendaciones,Prueba,Usuario con historial,1,1,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-016-02,HU-016,Generar recomendaciones,Prueba,Usuario con preferencias,1,1,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-016-03,HU-016,Generar recomendaciones,Prueba,Datos insuficientes,1,1,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-016-04,HU-016,Generar recomendaciones,Prueba,Entidades no disponibles,1,1,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-016-05,HU-016,Generar recomendaciones,Prueba,Respuesta válida,1,1,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+P-016-06,HU-016,Generar recomendaciones,Prueba,Recomendaciones reproducibles con misma entrada,1,1,"HU-013, HU-014",Sprint 5,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-01,HU-017,Integrar motor de recomendación,Tarea técnica,Definir contrato de API de recomendaciones,3,6,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-02,HU-017,Integrar motor de recomendación,Tarea técnica,Implementar endpoint,3,6,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-03,HU-017,Integrar motor de recomendación,Tarea técnica,Implementar validación de entrada,3,6,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-04,HU-017,Integrar motor de recomendación,Tarea técnica,Conectar API con motor,3,6,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-05,HU-017,Integrar motor de recomendación,Tarea técnica,Implementar manejo de errores,3,6,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-06,HU-017,Integrar motor de recomendación,Tarea técnica,Integrar cliente móvil,3,6,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-017-07,HU-017,Integrar motor de recomendación,Tarea técnica,Documentar API,1,2,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-017-01,HU-017,Integrar motor de recomendación,Prueba,Request válido,1,1,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-017-02,HU-017,Integrar motor de recomendación,Prueba,Request inválido,1,1,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-017-03,HU-017,Integrar motor de recomendación,Prueba,Respuesta del motor,1,1,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-017-04,HU-017,Integrar motor de recomendación,Prueba,Motor no disponible,1,1,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-017-05,HU-017,Integrar motor de recomendación,Prueba,Timeout/error de red,1,1,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-017-06,HU-017,Integrar motor de recomendación,Prueba,Integración móvil,1,1,"HU-016, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-018-01,HU-018,Visualizar recomendaciones,Tarea técnica,Definir componente visual de recomendación,1,2,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-018-02,HU-018,Visualizar recomendaciones,Tarea técnica,Implementar consumo del endpoint,3,6,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-018-03,HU-018,Visualizar recomendaciones,Tarea técnica,Mostrar tarjetas/listado de recomendaciones,1,2,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-018-04,HU-018,Visualizar recomendaciones,Tarea técnica,Implementar navegación al detalle,3,6,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-018-05,HU-018,Visualizar recomendaciones,Tarea técnica,"Manejar carga, vacío y error",1,2,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-018-01,HU-018,Visualizar recomendaciones,Prueba,Recomendaciones válidas,1,1,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-018-02,HU-018,Visualizar recomendaciones,Prueba,Sin recomendaciones,1,1,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-018-03,HU-018,Visualizar recomendaciones,Prueba,Error del servicio,1,1,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-018-04,HU-018,Visualizar recomendaciones,Prueba,Navegación al detalle,1,1,"HU-016, HU-004",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-019-01,HU-019,Actualizar información gastronómica,Tarea técnica,Definir permisos de actualización,1,2,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-019-02,HU-019,Actualizar información gastronómica,Tarea técnica,Implementar formularios de edición,3,6,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-019-03,HU-019,Actualizar información gastronómica,Tarea técnica,Implementar validaciones,3,6,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-019-04,HU-019,Actualizar información gastronómica,Tarea técnica,Implementar persistencia,3,6,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-019-05,HU-019,Actualizar información gastronómica,Tarea técnica,Reflejar cambios en catálogo,1,2,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-019-06,HU-019,Actualizar información gastronómica,Tarea técnica,Registrar errores/operaciones relevantes,1,2,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-019-01,HU-019,Actualizar información gastronómica,Prueba,Actualización válida,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-019-02,HU-019,Actualizar información gastronómica,Prueba,Datos inválidos,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-019-03,HU-019,Actualizar información gastronómica,Prueba,Usuario sin permisos,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-019-04,HU-019,Actualizar información gastronómica,Prueba,Reflejo en catálogo,1,1,"HU-001, HU-002",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-020-01,HU-020,Gestionar restaurantes,Tarea técnica,Definir modelo y campos obligatorios,3,6,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-020-02,HU-020,Gestionar restaurantes,Tarea técnica,Implementar alta de restaurante,3,6,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-020-03,HU-020,Gestionar restaurantes,Tarea técnica,Implementar consulta,3,6,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-020-04,HU-020,Gestionar restaurantes,Tarea técnica,Implementar edición,3,6,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-020-05,HU-020,Gestionar restaurantes,Tarea técnica,Implementar controles de permisos,3,6,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-020-06,HU-020,Gestionar restaurantes,Tarea técnica,Validar integridad de datos,1,2,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-020-01,HU-020,Gestionar restaurantes,Prueba,Crear restaurante,1,1,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-020-02,HU-020,Gestionar restaurantes,Prueba,Consultar restaurante,1,1,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-020-03,HU-020,Gestionar restaurantes,Prueba,Editar restaurante,1,1,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-020-04,HU-020,Gestionar restaurantes,Prueba,Datos obligatorios,1,1,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-020-05,HU-020,Gestionar restaurantes,Prueba,Acceso sin permisos,1,1,HU-019,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-021-01,HU-021,Gestionar platos,Tarea técnica,Definir campos obligatorios de plato,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-021-02,HU-021,Gestionar platos,Tarea técnica,Implementar alta de plato,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-021-03,HU-021,Gestionar platos,Tarea técnica,Implementar consulta,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-021-04,HU-021,Gestionar platos,Tarea técnica,Implementar edición,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-021-05,HU-021,Gestionar platos,Tarea técnica,Asociar plato a restaurante,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-021-06,HU-021,Gestionar platos,Tarea técnica,Gestionar disponibilidad/publicación,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-021-01,HU-021,Gestionar platos,Prueba,Crear plato,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-021-02,HU-021,Gestionar platos,Prueba,Editar plato,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-021-03,HU-021,Gestionar platos,Prueba,Asociación correcta,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-021-04,HU-021,Gestionar platos,Prueba,Datos inválidos,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-021-05,HU-021,Gestionar platos,Prueba,Disponibilidad,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-022-01,HU-022,Gestionar horarios,Tarea técnica,Definir estructura y reglas de horarios,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-022-02,HU-022,Gestionar horarios,Tarea técnica,Implementar registro,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-022-03,HU-022,Gestionar horarios,Tarea técnica,Implementar edición,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-022-04,HU-022,Gestionar horarios,Tarea técnica,Validar inconsistencias,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-022-05,HU-022,Gestionar horarios,Tarea técnica,Integrar horarios al catálogo,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-022-01,HU-022,Gestionar horarios,Prueba,Registrar horario,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-022-02,HU-022,Gestionar horarios,Prueba,Editar horario,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-022-03,HU-022,Gestionar horarios,Prueba,Horario inválido,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-022-04,HU-022,Gestionar horarios,Prueba,Reflejo en catálogo,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-023-01,HU-023,Gestionar ubicación,Tarea técnica,Definir estructura de ubicación,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-023-02,HU-023,Gestionar ubicación,Tarea técnica,Implementar registro,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-023-03,HU-023,Gestionar ubicación,Tarea técnica,Implementar edición,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-023-04,HU-023,Gestionar ubicación,Tarea técnica,Validar ubicación,1,2,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-023-05,HU-023,Gestionar ubicación,Tarea técnica,Integrar visualización al catálogo,3,6,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-023-01,HU-023,Gestionar ubicación,Prueba,Registrar ubicación,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-023-02,HU-023,Gestionar ubicación,Prueba,Editar ubicación,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-023-03,HU-023,Gestionar ubicación,Prueba,Ubicación inválida,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-023-04,HU-023,Gestionar ubicación,Prueba,Reflejo en catálogo,1,1,HU-020,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-024-01,HU-024,Evaluar recomendaciones,Tarea técnica,Seleccionar métricas de evaluación,1,2,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-024-02,HU-024,Evaluar recomendaciones,Tarea técnica,Preparar conjunto de evaluación,1,2,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-024-03,HU-024,Evaluar recomendaciones,Tarea técnica,Implementar script de evaluación,3,6,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-024-04,HU-024,Evaluar recomendaciones,Tarea técnica,Ejecutar métricas,1,2,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-024-05,HU-024,Evaluar recomendaciones,Tarea técnica,Guardar resultados,1,2,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-024-06,HU-024,Evaluar recomendaciones,Tarea técnica,Generar reporte comparativo,1,2,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-024-01,HU-024,Evaluar recomendaciones,Prueba,Ejecución de evaluación,1,1,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-024-02,HU-024,Evaluar recomendaciones,Prueba,Cálculo de métricas,1,1,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-024-03,HU-024,Evaluar recomendaciones,Prueba,Repetibilidad,3,3,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-024-04,HU-024,Evaluar recomendaciones,Prueba,Comparación de modelos,3,3,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-024-05,HU-024,Evaluar recomendaciones,Prueba,Registro de resultados,1,1,"HU-026, HU-016",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-025-01,HU-025,Manejo de usuario nuevo,Tarea técnica,Definir condición de cold start,1,2,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-025-02,HU-025,Manejo de usuario nuevo,Tarea técnica,Diseñar estrategia inicial,1,2,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-025-03,HU-025,Manejo de usuario nuevo,Tarea técnica,Implementar fallback de recomendación,3,6,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-025-04,HU-025,Manejo de usuario nuevo,Tarea técnica,Integrar con motor principal,3,6,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-025-05,HU-025,Manejo de usuario nuevo,Tarea técnica,Registrar comportamiento para evaluación,1,2,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-025-01,HU-025,Manejo de usuario nuevo,Prueba,Usuario sin historial,1,1,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-025-02,HU-025,Manejo de usuario nuevo,Prueba,Usuario con pocas interacciones,1,1,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-025-03,HU-025,Manejo de usuario nuevo,Prueba,Fallback válido,1,1,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+P-025-04,HU-025,Manejo de usuario nuevo,Prueba,No mostrar entidades inexistentes,1,1,"HU-013, HU-014",Sprint 6,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-01a,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Definir contrato y esquema del dataset de entrenamiento,2,4,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-01b,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,"Definir variables, eventos y partición de datos",1,2,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-02,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Definir dataset de evaluación,1,2,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-03,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Implementar preparación de datos,3,6,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-04a,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Implementar pipeline de entrenamiento reproducible,2,4,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-04b,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Versionar y registrar el modelo entrenado,1,2,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-05,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Separar y proteger evaluación,1,2,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-06,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Versionar configuración del experimento,3,6,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-026-07,HU-026,Entrenamiento y evaluación del modelo,Tarea técnica,Registrar resultados,1,2,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-026-01,HU-026,Entrenamiento y evaluación del modelo,Prueba,Separación entrenamiento/evaluación,1,1,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-026-02,HU-026,Entrenamiento y evaluación del modelo,Prueba,Entrenamiento reproducible,1,1,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-026-03,HU-026,Entrenamiento y evaluación del modelo,Prueba,Sin fuga de datos,1,1,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-026-04,HU-026,Entrenamiento y evaluación del modelo,Prueba,Registro de experimento,1,1,"HU-013, HU-014, HU-015",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-027-01,HU-027,Aplicación multiplataforma,Tarea técnica,Configurar proyecto React Native,3,6,—,Sprint 0,Respetar dependencias de la HU y completar criterios de aceptación
+T-027-02,HU-027,Aplicación multiplataforma,Tarea técnica,Definir plataformas objetivo,1,2,—,Sprint 0,Respetar dependencias de la HU y completar criterios de aceptación
+T-027-03,HU-027,Aplicación multiplataforma,Tarea técnica,Verificar navegación y componentes,1,2,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-027-04,HU-027,Aplicación multiplataforma,Tarea técnica,Ejecutar build por plataforma,1,2,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-027-05,HU-027,Aplicación multiplataforma,Tarea técnica,Registrar incompatibilidades y corregirlas,1,2,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-027-01,HU-027,Aplicación multiplataforma,Prueba,Build plataforma 1,3,3,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-027-02,HU-027,Aplicación multiplataforma,Prueba,Build plataforma 2,3,3,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-027-03,HU-027,Aplicación multiplataforma,Prueba,Funciones críticas multiplataforma,3,3,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+P-027-04,HU-027,Aplicación multiplataforma,Prueba,Navegación consistente,1,1,—,Sprint 1,Respetar dependencias de la HU y completar criterios de aceptación
+T-028-01,HU-028,Usabilidad del MVP,Tarea técnica,Definir tareas críticas de evaluación,1,2,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-028-02,HU-028,Usabilidad del MVP,Tarea técnica,Preparar prototipo/interfaz,1,2,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-028-03,HU-028,Usabilidad del MVP,Tarea técnica,Ejecutar prueba de usabilidad,1,2,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-028-04,HU-028,Usabilidad del MVP,Tarea técnica,Registrar problemas,1,2,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-028-05,HU-028,Usabilidad del MVP,Tarea técnica,Implementar mejoras priorizadas,3,6,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-028-06,HU-028,Usabilidad del MVP,Tarea técnica,Repetir evaluación,1,2,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-028-01,HU-028,Usabilidad del MVP,Prueba,Completar tarea de registro,1,1,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-028-02,HU-028,Usabilidad del MVP,Prueba,Buscar restaurante,1,1,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-028-03,HU-028,Usabilidad del MVP,Prueba,Consultar plato,1,1,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-028-04,HU-028,Usabilidad del MVP,Prueba,Encontrar recomendaciones,1,1,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-028-05,HU-028,Usabilidad del MVP,Prueba,Evaluación de comprensión,1,1,"HU-004, HU-010, HU-012, HU-018",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-029-01,HU-029,Rendimiento,Tarea técnica,Definir operaciones críticas,1,2,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-029-02,HU-029,Rendimiento,Tarea técnica,Establecer umbrales de rendimiento,1,2,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-029-03,HU-029,Rendimiento,Tarea técnica,Instrumentar medición,1,2,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-029-04,HU-029,Rendimiento,Tarea técnica,Ejecutar pruebas de respuesta,1,2,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-029-05,HU-029,Rendimiento,Tarea técnica,Analizar resultados,1,2,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-029-06,HU-029,Rendimiento,Tarea técnica,Optimizar puntos críticos,1,2,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-029-01,HU-029,Rendimiento,Prueba,Tiempo de consulta,1,1,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-029-02,HU-029,Rendimiento,Prueba,Tiempo de búsqueda,1,1,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-029-03,HU-029,Rendimiento,Prueba,Tiempo de recomendación,1,1,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-029-04,HU-029,Rendimiento,Prueba,Comportamiento bajo carga controlada,3,3,"HU-010, HU-016, HU-017",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-030-01,HU-030,Escalabilidad,Tarea técnica,Revisar separación de responsabilidades,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-030-02,HU-030,Escalabilidad,Tarea técnica,"Definir límites entre móvil, API, BD y recomendador",1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-030-03,HU-030,Escalabilidad,Tarea técnica,Revisar consultas y acceso a datos,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-030-04,HU-030,Escalabilidad,Tarea técnica,Documentar puntos de crecimiento,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-030-05,HU-030,Escalabilidad,Tarea técnica,Ejecutar prueba básica de crecimiento,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-030-01,HU-030,Escalabilidad,Prueba,Incremento de registros,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-030-02,HU-030,Escalabilidad,Prueba,Incremento de consultas,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-030-03,HU-030,Escalabilidad,Prueba,Separación de componentes,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-030-04,HU-030,Escalabilidad,Prueba,Integridad bajo crecimiento,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-031-01,HU-031,Disponibilidad,Tarea técnica,Identificar servicios externos críticos,3,6,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-031-02,HU-031,Disponibilidad,Tarea técnica,Definir objetivo de disponibilidad del MVP,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-031-03,HU-031,Disponibilidad,Tarea técnica,Implementar estados de error y fallback,3,6,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-031-04,HU-031,Disponibilidad,Tarea técnica,Registrar incidentes,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-031-05,HU-031,Disponibilidad,Tarea técnica,Ejecutar pruebas de indisponibilidad,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-031-01,HU-031,Disponibilidad,Prueba,Servicio disponible,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-031-02,HU-031,Disponibilidad,Prueba,Backend indisponible,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-031-03,HU-031,Disponibilidad,Prueba,Recomendador indisponible,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-031-04,HU-031,Disponibilidad,Prueba,Recuperación,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-032-01,HU-032,Seguridad de acceso,Tarea técnica,Revisar configuración de autenticación,3,6,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-032-02,HU-032,Seguridad de acceso,Tarea técnica,Configurar autorización por roles,3,6,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-032-03,HU-032,Seguridad de acceso,Tarea técnica,Revisar protección de rutas,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-032-04,HU-032,Seguridad de acceso,Tarea técnica,Revisar políticas de acceso a datos,3,6,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-032-05,HU-032,Seguridad de acceso,Tarea técnica,Ejecutar pruebas de acceso no autorizado,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-032-01,HU-032,Seguridad de acceso,Prueba,Acceso válido,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-032-02,HU-032,Seguridad de acceso,Prueba,Acceso sin sesión,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-032-03,HU-032,Seguridad de acceso,Prueba,Rol insuficiente,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-032-04,HU-032,Seguridad de acceso,Prueba,Acceso a datos de otro usuario,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-032-05,HU-032,Seguridad de acceso,Prueba,Credenciales no expuestas,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-033-01,HU-033,Privacidad de datos,Tarea técnica,Inventariar datos personales,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-033-02,HU-033,Privacidad de datos,Tarea técnica,Clasificar datos usados por recomendador,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-033-03,HU-033,Privacidad de datos,Tarea técnica,Definir propósito y acceso,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-033-04,HU-033,Privacidad de datos,Tarea técnica,Revisar políticas de base de datos,3,6,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-033-05,HU-033,Privacidad de datos,Tarea técnica,Documentar tratamiento de datos,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-033-06,HU-033,Privacidad de datos,Tarea técnica,Validar minimización de datos,1,2,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-033-01,HU-033,Privacidad de datos,Prueba,Acceso por rol,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-033-02,HU-033,Privacidad de datos,Prueba,Aislamiento de datos,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-033-03,HU-033,Privacidad de datos,Prueba,Datos mínimos,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-033-04,HU-033,Privacidad de datos,Prueba,Uso de datos del recomendador,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-033-05,HU-033,Privacidad de datos,Prueba,Registro/documentación,1,1,"HU-001, HU-002, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-034-01,HU-034,Mantenibilidad,Tarea técnica,Definir estructura de carpetas y módulos,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-034-02,HU-034,Mantenibilidad,Tarea técnica,Establecer convenciones de código,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-034-03,HU-034,Mantenibilidad,Tarea técnica,Configurar lint/formateo,3,6,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-034-04,HU-034,Mantenibilidad,Tarea técnica,Documentar decisiones técnicas,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-034-05,HU-034,Mantenibilidad,Tarea técnica,Revisar dependencias,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-034-06,HU-034,Mantenibilidad,Tarea técnica,Realizar revisión de código,1,2,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-034-01,HU-034,Mantenibilidad,Prueba,Lint,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-034-02,HU-034,Mantenibilidad,Prueba,Formato,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-034-03,HU-034,Mantenibilidad,Prueba,Estructura modular,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-034-04,HU-034,Mantenibilidad,Prueba,Revisión de código,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-034-05,HU-034,Mantenibilidad,Prueba,Documentación,1,1,"HU-027, HU-035",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-01,HU-035,Integración mediante API,Tarea técnica,Definir contratos API,3,6,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-02,HU-035,Integración mediante API,Tarea técnica,Implementar validación de requests,3,6,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-03,HU-035,Integración mediante API,Tarea técnica,Implementar respuestas y errores,3,6,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-04,HU-035,Integración mediante API,Tarea técnica,Configurar cliente móvil,3,6,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-05,HU-035,Integración mediante API,Tarea técnica,Integrar backend-recomendador,3,6,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-06,HU-035,Integración mediante API,Tarea técnica,Documentar endpoints,1,2,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-035-07,HU-035,Integración mediante API,Tarea técnica,Crear colección Postman,1,2,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-035-01,HU-035,Integración mediante API,Prueba,Request válido,1,1,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-035-02,HU-035,Integración mediante API,Prueba,Request inválido,1,1,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-035-03,HU-035,Integración mediante API,Prueba,Error controlado,1,1,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-035-04,HU-035,Integración mediante API,Prueba,Integración móvil,1,1,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-035-05,HU-035,Integración mediante API,Prueba,Integración backend-recomendador,1,1,"HU-016, HU-027",Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-01,HU-036,Calidad integral,Tarea técnica,Consolidar matriz HU-requisito-prueba,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-02,HU-036,Calidad integral,Tarea técnica,Preparar suite de pruebas,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-03,HU-036,Calidad integral,Tarea técnica,Ejecutar pruebas funcionales,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-04,HU-036,Calidad integral,Tarea técnica,Ejecutar pruebas no funcionales,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-05,HU-036,Calidad integral,Tarea técnica,Registrar y clasificar defectos,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-06,HU-036,Calidad integral,Tarea técnica,Ejecutar regresión,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+T-036-07,HU-036,Calidad integral,Tarea técnica,Preparar evidencia de aceptación,1,2,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-036-01,HU-036,Calidad integral,Prueba,Suite funcional,1,1,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-036-02,HU-036,Calidad integral,Prueba,Suite no funcional,1,1,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-036-03,HU-036,Calidad integral,Prueba,Regresión,3,3,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-036-04,HU-036,Calidad integral,Prueba,Defectos críticos,1,1,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación
+P-036-05,HU-036,Calidad integral,Prueba,Evidencia de aceptación,1,1,HU-001–HU-035,Incremento 2,Respetar dependencias de la HU y completar criterios de aceptación

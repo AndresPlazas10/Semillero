@@ -1,0 +1,37 @@
+﻿ID,Historia,Rol,Prioridad,MVP,Requisitos,Criterios aceptación,Estado
+HU-001,Registro de usuario,Usuario,Alta,P0,RF-001,3,Validada en Sprint 0 — ver Acta
+HU-002,Inicio de sesión,Usuario,Alta,P0,"RF-002, RNF-006",3,Validada en Sprint 0 — ver Acta
+HU-003,Gestión del perfil,Usuario,Media,P1,"RF-003, RIA-001",3,Validada en Sprint 0 — ver Acta
+HU-004,Explorar restaurantes,Usuario,Alta,P0,RF-004,3,Validada en Sprint 0 — ver Acta
+HU-005,Detalle del restaurante,Usuario,Alta,P0,RF-005,3,Validada en Sprint 0 — ver Acta
+HU-006,Consultar platos,Usuario,Alta,P0,RF-006,3,Validada en Sprint 0 — ver Acta
+HU-007,Consultar precios,Usuario,Alta,P0,RF-007,3,Validada en Sprint 0 — ver Acta
+HU-008,Consultar horarios,Usuario,Alta,P1,RF-008,3,Validada en Sprint 0 — ver Acta
+HU-009,Consultar ubicación,Usuario,Alta,P1,RF-009,3,Validada en Sprint 0 — ver Acta
+HU-010,Buscar opciones gastronómicas,Usuario,Alta,P0,RF-010,3,Validada en Sprint 0 — ver Acta
+HU-011,Filtrar resultados,Usuario,Media,P1,RF-010,3,Validada en Sprint 0 — ver Acta
+HU-012,Detalle de plato,Usuario,Alta,P0,RF-011,3,Validada en Sprint 0 — ver Acta
+HU-013,Registrar interacción,Usuario,Alta,P0,"RF-012, RIA-002",3,Validada en Sprint 0 — ver Acta
+HU-014,Registrar preferencias,Usuario,Alta,P0,"RF-013, RIA-001",3,Validada en Sprint 0 — ver Acta
+HU-015,Consultar historial de búsqueda,Usuario,Media,P1,"RF-014, RIA-002",3,Validada en Sprint 0 — ver Acta
+HU-016,Generar recomendaciones,Usuario,Alta,P0,"RF-015, RIA-001, RIA-002, RIA-003",4,Validada en Sprint 0 — ver Acta
+HU-017,Integrar motor de recomendación,Sistema,Alta,P0,"RF-016, RIA-003, RNF-009",4,Validada en Sprint 0 — ver Acta
+HU-018,Visualizar recomendaciones,Usuario,Alta,P0,RF-017,3,Validada en Sprint 0 — ver Acta
+HU-019,Actualizar información gastronómica,Administrador/gestor,Alta,P0,RF-018,3,Validada en Sprint 0 — ver Acta
+HU-020,Gestionar restaurantes,Administrador/gestor,Alta,P0,RF-019,4,Validada en Sprint 0 — ver Acta
+HU-021,Gestionar platos,Administrador/gestor,Alta,P0,RF-020,4,Validada en Sprint 0 — ver Acta
+HU-022,Gestionar horarios,Administrador/gestor,Media,P1,RF-021,4,Validada en Sprint 0 — ver Acta
+HU-023,Gestionar ubicación,Administrador/gestor,Media,P1,RF-022,4,Validada en Sprint 0 — ver Acta
+HU-024,Evaluar recomendaciones,Investigador/desarrollador,Alta,P0,"RF-023, RIA-006",4,Validada en Sprint 0 — ver Acta
+HU-025,Manejo de usuario nuevo,Usuario nuevo,Alta,P0,RIA-005,4,Validada en Sprint 0 — ver Acta
+HU-026,Entrenamiento y evaluación del modelo,Investigador/desarrollador,Alta,P0,RIA-004,4,Validada en Sprint 0 — ver Acta
+HU-027,Aplicación multiplataforma,Usuario,Alta,P0,RNF-001,3,Validada en Sprint 0 — ver Acta
+HU-028,Usabilidad del MVP,Usuario,Alta,P1,RNF-002,4,Validada en Sprint 0 — ver Acta
+HU-029,Rendimiento,Usuario,Media,P1,RNF-003,4,Validada en Sprint 0 — ver Acta
+HU-030,Escalabilidad,Equipo de desarrollo,Media,P2,RNF-004,3,Validada en Sprint 0 — ver Acta
+HU-031,Disponibilidad,Usuario,Media,P2,RNF-005,4,Validada en Sprint 0 — ver Acta
+HU-032,Seguridad de acceso,Usuario,Alta,P0,RNF-006,4,Validada en Sprint 0 — ver Acta
+HU-033,Privacidad de datos,Usuario,Alta,P1,RNF-007,4,Validada en Sprint 0 — ver Acta
+HU-034,Mantenibilidad,Equipo de desarrollo,Media,P2,RNF-008,4,Validada en Sprint 0 — ver Acta
+HU-035,Integración mediante API,Sistema,Alta,P0,"RNF-009, RF-016",4,Validada en Sprint 0 — ver Acta
+HU-036,Calidad integral,Equipo de desarrollo,Alta,P0,RNF-010,4,Validada en Sprint 0 — ver Acta
