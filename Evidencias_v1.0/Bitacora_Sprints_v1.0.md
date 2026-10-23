@@ -115,7 +115,7 @@ El README de `Sprint_0_Plan_v1.0/` declara Sprint 0 completado. El `Acta_Validac
 - API: https://github.com/AndresPlazas10/recomendacion-gastronomica-tunja/actions/runs/39188126873
 - Mobile: https://github.com/AndresPlazas10/recomendacion-gastronomica-tunja/actions/runs/39188126891
 - Supabase: https://github.com/AndresPlazas10/recomendacion-gastronomica-tunja/actions/runs/39188126990
-- Los tres checks pasan; el PR espera revisión y merge.
+- PR #1 se fusionó el 19-oct-2026 con el merge commit `135820a`; los tres checks pasaron.
 
 ### Actualización del checkout local — 23-oct-2026
 
@@ -127,18 +127,18 @@ Los siguientes resultados se ejecutaron durante la revisión del checkout local.
 | Eventos (I-05) | Existe `POST /v1/eventos`, con validación de sesión, consentimiento de interacciones y persistencia; el cliente móvil envía lotes autenticados. API: Ruff lint y formato pasan; pytest: 5 pruebas pasan. | Implementado y verificado unitariamente; integración con Supabase pendiente |
 | Privilegios de perfiles | Está en el checkout `0002_profile_privileges.sql` y una prueba pgTAP con 5 aserciones sobre permisos y `rol_global`. | Migración y prueba preparadas; ejecución local pendiente |
 | Calidad móvil | `npx expo-doctor`: 21/21; `npm run typecheck` y `npm run lint`: pasan. Se actualizaron dependencias Expo para resolver el fallo de compatibilidad detectado inicialmente. No existe script `npm test`. | Verificado localmente; pruebas unitarias móviles pendientes |
-| Supabase local | `supabase status` no pudo conectar porque Docker no está disponible; no se ejecutaron `db reset`, `test db` ni `db lint` localmente. El workflow de CI quedó configurado para ejecutarlos. | Pendiente de CI o entorno Docker |
+| Supabase | `supabase status` no pudo conectar porque Docker no está disponible, así que no se ejecutó localmente. En el PR #2, CI pasó `supabase start`, `db reset`, `test db` y `db lint`. | CI aprobado; validación del proyecto dev remoto pendiente |
 | Android/iOS | No se ejecutaron builds ni pruebas funcionales por plataforma en esta revisión. | Pendiente; HU-027 no cumple aún toda su evidencia de aceptación |
 | Auditoría npm | Tras `npm audit fix` sin `--force`, `npm audit --omit=dev` aún reporta 7 vulnerabilidades (4 altas, 3 moderadas); las correcciones sugeridas implican cambios mayores de Expo. | Riesgo abierto para triage; no se aplicó una actualización mayor |
 | Credenciales | El `.env.example` actual contiene placeholders, no tiene cambios locales y el usuario confirma que los valores anteriores nunca se publicaron. | Sin credenciales en el cambio actual |
 
-El commit `17e10b5` (`feat(sprint-1): registro, eventos y privilegios RLS`) está publicado en `feat/sprint-1-close`. Se subió como rama de trabajo, sin push directo a `main`; la revisión de CI y el pull request siguen pendientes.
+Los commits `17e10b5` (`feat(sprint-1): registro, eventos y privilegios RLS`) y `19b6cd7` (integración de `main` y resolución de conflictos) están publicados en `feat/sprint-1-close`. El [PR #2](https://github.com/AndresPlazas10/recomendacion-gastronomica-tunja/pull/2) está abierto y sin conflictos; los checks API, Mobile y Supabase pasan. GitHub aún requiere revisión antes de permitir el merge. No se hizo push directo a `main`.
 
 ### Pendientes de cierre
 
-1. Revisar el estado remoto del PR #1; la bitácora solo conserva el estado observado al 18-oct-2026.
-2. Abrir un PR de `feat/sprint-1-close` y esperar CI de API, Mobile y Supabase.
-3. Ejecutar migraciones, seed y las 5 aserciones de privilegios en Supabase local/CI y verificar los permisos requeridos en Supabase dev remoto.
+1. Obtener la revisión requerida y fusionar el PR #2; sus checks API, Mobile y Supabase ya pasaron.
+2. Abrir el PR de `docs/sprint-1-evidence` después de actualizar el gitlink de la app al commit integrado definitivo.
+3. Verificar los permisos requeridos en Supabase dev remoto y conservar la evidencia de CI de migraciones, seed y RLS.
 4. Ejecutar P-001-01…05 de extremo a extremo, incluyendo persistencia del perfil y manejo de errores; registrar la evidencia.
 5. Probar `POST /v1/eventos` con consentimiento de prueba explícito contra Supabase y verificar persistencia.
 6. Ejecutar y documentar builds y funciones críticas Android/iOS para HU-027.
